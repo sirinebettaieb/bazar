@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/bazar2Bébé.props" />
+</Project>

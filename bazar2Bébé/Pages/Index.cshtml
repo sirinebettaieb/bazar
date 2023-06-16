@@ -1,0 +1,719 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<body class="fond">
+    <!--gard des jeux-->
+    <h1 class="titre"> Les jouets </h1>
+    <div class="row g-6">
+        <!--card jeux 1-->
+        <div class="col">
+            <div class="card h-100">
+                <center><img id="imgjeux" src="../image/anneau.jpg" class="card-img1" alt="..." data-bs-toggle="modal" data-bs-target="#Modal1"></center>
+                <div class="card-body">
+                    <h5 class="card-title">Anneau en bois</h5>
+                </div>
+            </div>
+        </div>
+        <!--card jeux 2-->
+        <div class="col">
+            <div class="card h-100">
+                <center>
+                    <img id="imgjeux" src="../image/jeuxdéveil.jpg" class="card-img2" alt="..." data-bs-toggle="modal" data-bs-target="#Modal2">
+                </center>
+                <div class="card-body">
+                    <h5 class="card-title">Arche d'éveil en bois</h5>
+                </div>
+            </div>
+        </div>
+        <!--card jeux 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <center> <img id="imgjeux" src="../image/anneauxàempiler.jpg" class="card-img3" alt="..." data-bs-toggle="modal" data-bs-target="#Modal3"></center>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Pyramide à empiler en silicone
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <!--card jeux  4-->
+        <div class="col">
+            <div class="card h-100">
+                <center>   <img id="imgjeux" src="../image/boitedejeux.jpg" class="card-img4" alt="..." data-bs-toggle="modal" data-bs-target="#Modal4"></center>
+                <div class="card-body">
+                    <h5 class="card-title">Boite de jeux en bois</h5>
+                </div>
+            </div>
+        </div>
+        <!--card jeux 5-->
+        <div class="col">
+            <div class="card h-100">
+                <center> <img id="imgjeux" src="../image/leka.jpg" class="card-img5" alt="..." data-bs-toggle="modal" data-bs-target="#Modal5"></center>
+                <div class="card-body">
+                    <h5 class="card-title">LEKA Portique bébé, bouleau/multicolore</h5>
+
+                </div>
+            </div>
+        </div>
+        <!--card jeux 6-->
+        <div class="col">
+            <div class="card h-100">
+                <center> <img id="imgjeux" src="../image/train.jpg" class="card-img6" alt="..." data-bs-toggle="modal" data-bs-target="#Modal6"></center>
+                <div class="card-body">
+                    <h5 class="card-title">Train employable en bois</h5>
+                </div>
+            </div>
+        </div>
+        <!--modal jeux1-->
+        <div class="modal fade" id="Modal1" tabindex="3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Anneau en bois</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <!--carossel jeux1-->
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../image/anneau.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/ann1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div>
+                            <p>
+                                Un anneau de dentition personnalisable jusqu’à 5 caractères (lettres uniquement), en perles de bois et silicone. Quatre couleurs au choix : bleu, menthe, pêche et rose ...
+                            </p>
+                            <span class="price-value public-price" data-price1="30.50" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>30</b><span>€50</span></span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                        <button type="button" class="btn ">Ajouter au panier </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal jeux2-->
+        <div class="modal fade" id="Modal2" tabindex="3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Arche d'éveil en bois</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div><img src="../image/jeuxdéveil.jpg" class="d-block w-100" alt="..."></div>
+                        <div>
+                            <p style="">Un adorable coffret imaginé pour les tout-petits, composé d'un mini boulier, d'un puzzle des formes à encastrer hibou, d'une pyramide à empiler biche. Bébé sera attiré par les couleurs et les différentes formes de ces jouets bien intrigants !</p>
+                            <ul>Dimensions</ul>
+                            <ul>Boulier : 10 x 10 x 15 cm</ul>
+                            <ul>Pyramide à empiler : hauteur 16 cm x diamètre 8 cm</ul>
+                            <ul>Puzzle des formes : longueur : 19 cm</ul>
+                            <span class="price-value public-price" data-price2="34.95" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>34</b><span>€95</span></span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                            <button type="button" class="btn ">Ajouter au panier </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal jeux3-->
+        <div class="modal fade" id="Modal3" tabindex="3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Pyramide à empiler</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--carossel jeux 3-->
+                        <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../image/anneauxàempiler.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../image/pyra1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/pyra2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div>
+                                <p>
+                                    Découvrez la pyramide à empiler en silicone Blue multi mix de la marque Liewood. Ce jouet de motricité est idéal pour stimuler les sens de bébé et sa capacité de logique. Ce jouet à empiler en silicone amusera votre enfant tout en faisant progresser son éveil.
+                                    Un cadeau de naissance original !
+                                </p>
+                                <ul>Dimensions</ul>
+                                <ul>Matière : 100% silicone</ul>
+                                <ul> Coloris : Blue multi mix</ul>
+                                <ul>Entretien : Nettoyer avec un chiffon humide et un savon doux</ul>
+                                <ul>  Utilisation : A partir 6 mois</ul>
+                                <span class="price-value public-price" data-price3="30.95" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>30</b><span>€95</span></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                                <button type="button" class="btn ">Ajouter au panier </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--modal jeux4-->
+        <div class="modal fade" id="Modal4" tabindex="3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Boite de jeux en bois</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--carossel jeux 4-->
+                        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../image/boitedejeux.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../image/boite1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/boite2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div>
+                                <p>
+                                    ce jouet est composée de 12 formes aux couleurs douces, la Boîte à Formes créée par la marque mushie retiendra toute l'attention et suscitera la curiosité de votre p'tit loup.
+                                    En jouant avec les formes et en cherchant à les encastrer au bon endroit, votre enfant développera sa motricité fine en s'amusant.
+                                    Léger et de petite taille, voilà un jeu que vous pourrez emporter partout.
+                                </p>
+                                <ul>Dimensions: l. 14,2 x H. 14,2 x P. 14,2 cm</ul>
+                                <ul>Matière : 100% bois</ul>
+                                <ul>
+                                    Coloris : Blue multi mix
+                                </ul>
+                                <ul>  Utilisation : A partir 10 mois</ul>
+                                <span class="price-value public-price" data-price4="25.95" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>25</b><span>€95</span></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                                <button type="button" class="btn ">Ajouter au panier </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal jeux5-->
+        <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">LEKA Portique bébé, bouleau/multicolore</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--carossel jeux 5-->
+                        <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../image/leka.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../image/leka1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/leka2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div>
+                                <p>
+                                    Les jouets colorés installés sur ce portique donneront envie à votre bébé de s'amuser avec. Un moyen amusant pour lui de développer sa coordination mail-oeil.
+                                    Le fait de tendre le bras vers les jouets stimule le développement de la coordination oeil-main de bébé.
+                                    Les constrastes marqués sont bien visibles par le bébé.
+                                    Mouvements et forts constrastes stimulent la vision de l'enfant.
+                                </p>
+                                <ul>Dimensions</ul>
+                                <ul>Largeur: 55 cm</ul>
+                                <ul> Hauteur: 43 cm</ul>
+
+                                <span class="price-value public-price" data-price5="25.50" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>25</b><span>50€</span></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                                <button type="button" class="btn ">Ajouter au panier </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal jeux6-->
+        <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Train employable en bois</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--carossel jeux 6-->
+                        <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../image/traintirerenbois.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../image/train1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/train2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div>
+                                <p>
+                                    Train en bois
+                                    Partons en train ! Fais preuve d'imagination pour construire le train à l'aide des blocs à empiler de différentes formes et couleurs. Il y a 3 voitures que tu peux empiler. Mettez votre tout-petit au défi pour soutenir la coordination main-oeil et la motricité fine.
+                                    C'est aussi un joli accessoire pour la chambre d'enfant ou de jeu.
+                                </p>
+                                <ul>Description</ul>
+                                <ul>Blocs en bois de différentes formes et couleurs.</ul>
+                                <ul>    Peinture à base d'eau.</ul>
+                                <ul>100% bois FSC.</ul>
+                                <span class="price-value public-price" data-price6="32.95" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>32</b><span>€95</span></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                                <button type="button" class="btn ">Ajouter au panier </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!--gard des vetements-->
+        <h1 class="titre"> Les vêtements </h1>
+
+        <!--card vetement 1-->
+        <div class="col">
+            <div class="card h-100">
+                <center><img id="imgvet" src="../image/vete1.jpg" class="card-img1" alt="..." data-bs-toggle="modal" data-bs-target="#Modalv1"></center>
+                <div class="card-body">
+                    <h5 class="card-title">Ensemble 3 piéces pour filles</h5>
+                </div>
+            </div>
+        </div>
+        <!--card vetement 2-->
+        <div class="col">
+            <div class="card h-100">
+                <center>
+                    <img id="imgvet" src="../image/outfitboy.jpg" class="card-img2" alt="..." data-bs-toggle="modal" data-bs-target="#Modalv2">
+                </center>
+                <div class="card-body">
+                    <h5 class="card-title">Ensemble 3 piéces pour garcon</h5>
+                </div>
+            </div>
+        </div>
+        <!--card vetement 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <center> <img id="imgvet" src="../image/jogging1-1.webp" class="card-img3" alt="..." data-bs-toggle="modal" data-bs-target="#Modalv3"></center>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Jogging
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <!--card vetement  4-->
+        <div class="col">
+            <div class="card h-100">
+                <center>   <img id="imgvet" src="../image/pyjama1-1.jpg" class="card-img4" alt="..." data-bs-toggle="modal" data-bs-target="#Modalv4"></center>
+                <div class="card-body">
+                    <h5 class="card-title">Pyjama pour bébé</h5>
+                </div>
+            </div>
+        </div>
+        <!--card vetement 5-->
+        <div class="col">
+            <div class="card h-100">
+                <center> <img id="imgvet" src="../image/robe1-1.jpg" class="card-img5" alt="..." data-bs-toggle="modal" data-bs-target="#Modalv5"></center>
+                <div class="card-body">
+                    <h5 class="card-title">Les robes </h5>
+
+                </div>
+            </div>
+        </div>
+        <!--card vetement 6-->
+        <div class="col">
+            <div class="card h-100">
+                <center> <img id="imgvet" src="../image/boy.jpg" class="card-img6" alt="..." data-bs-toggle="modal" data-bs-target="#Modalv6"></center>
+                <div class="card-body">
+                    <h5 class="card-title">Tenu complet pour l'hiver</h5>
+                </div>
+            </div>
+        </div>
+        <!--modal vet1-->
+        <div class="modal fade" id="Modalv1" tabindex="3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Ensemble 3 piéces pour filles</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <!--carossel vet1-->
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../image/vete1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/vete2.webp" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div>
+                            <p>
+                                <ul>
+                                    Référence : XL498
+                                    L'ensemble parfait pour les nouveaux nés !
+                                </ul>
+
+                                - Ensemble 3 pièces body + legging + bonnet
+                                - 100% coton issu de l’agriculture biologique
+                                - Body croisé qui permet un habillage facile et sécurisée
+                                - Manches longues
+                                - Ouverture pressions par devant
+                                - Finition bords côtes aux poignets et au bonnet
+                                - Legging avec pieds à taille élastiquée avec revers
+                                - Imprimé 'étoile' all over sur le body et bonnet
+                            </p>
+
+                            <span class="price-value public-price" data-price="10.50" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>10</b><span>€50</span></span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                        <button type="button" class="btn ">Ajouter au panier </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal vet2-->
+        <div class="modal fade" id="Modal2" tabindex="3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Arche d'éveil en bois</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div><img src="../image/jeuxdéveil.jpg" class="d-block w-100" alt="..."></div>
+                        <div>
+                            <p style="">Un adorable coffret imaginé pour les tout-petits, composé d'un mini boulier, d'un puzzle des formes à encastrer hibou, d'une pyramide à empiler biche. Bébé sera attiré par les couleurs et les différentes formes de ces jouets bien intrigants !</p>
+                            <ul>Dimensions</ul>
+                            <ul>Boulier : 10 x 10 x 15 cm</ul>
+                            <ul>Pyramide à empiler : hauteur 16 cm x diamètre 8 cm</ul>
+                            <ul>Puzzle des formes : longueur : 19 cm</ul>
+                            <span class="price-value public-price" data-price="32.95" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>34</b><span>€95</span></span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                            <button type="button" class="btn ">Ajouter au panier </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal vet3-->
+        <div class="modal fade" id="Modal3" tabindex="3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Pyramide à empiler</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--carossel vet 3-->
+                        <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../image/anneauxàempiler.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../image/pyra1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/pyra2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div>
+                                <p>
+                                    Découvrez la pyramide à empiler en silicone Blue multi mix de la marque Liewood. Ce jouet de motricité est idéal pour stimuler les sens de bébé et sa capacité de logique. Ce jouet à empiler en silicone amusera votre enfant tout en faisant progresser son éveil.
+                                    Un cadeau de naissance original !
+                                </p>
+                                <ul>Dimensions</ul>
+                                <ul>Matière : 100% silicone</ul>
+                                <ul> Coloris : Blue multi mix</ul>
+                                <ul>Entretien : Nettoyer avec un chiffon humide et un savon doux</ul>
+                                <ul>  Utilisation : A partir 6 mois</ul>
+                                <span class="price-value public-price" data-price="32.95" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>30</b><span>€95</span></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                                <button type="button" class="btn ">Ajouter au panier </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--modal vet4-->
+        <div class="modal fade" id="Modal4" tabindex="3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Boite de jeux en bois</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--carossel vet 4-->
+                        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../image/boitedejeux.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../image/boite1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/boite2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div>
+                                <p>
+                                    ce jouet est composée de 12 formes aux couleurs douces, la Boîte à Formes créée par la marque mushie retiendra toute l'attention et suscitera la curiosité de votre p'tit loup.
+                                    En jouant avec les formes et en cherchant à les encastrer au bon endroit, votre enfant développera sa motricité fine en s'amusant.
+                                    Léger et de petite taille, voilà un jeu que vous pourrez emporter partout.
+                                </p>
+                                <ul>Dimensions: l. 14,2 x H. 14,2 x P. 14,2 cm</ul>
+                                <ul>Matière : 100% bois</ul>
+                                <ul>
+                                    Coloris : Blue multi mix
+                                </ul>
+                                <ul>  Utilisation : A partir 10 mois</ul>
+                                <span class="price-value public-price" data-price="32.95" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>25</b><span>€95</span></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                                <button type="button" class="btn ">Ajouter au panier </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal vet5-->
+        <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">LEKA Portique bébé, bouleau/multicolore</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--carossel vet 5-->
+                        <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../image/leka.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../image/leka1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/leka2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div>
+                                <p>
+                                    Les jouets colorés installés sur ce portique donneront envie à votre bébé de s'amuser avec. Un moyen amusant pour lui de développer sa coordination mail-oeil.
+                                    Le fait de tendre le bras vers les jouets stimule le développement de la coordination oeil-main de bébé.
+                                    Les constrastes marqués sont bien visibles par le bébé.
+                                    Mouvements et forts constrastes stimulent la vision de l'enfant.
+                                </p>
+                                <ul>Dimensions</ul>
+                                <ul>Largeur: 55 cm</ul>
+                                <ul> Hauteur: 43 cm</ul>
+
+                                <span class="price-value public-price" data-price="32.95" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>25</b><span>50€</span></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                                <button type="button" class="btn ">Ajouter au panier </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal vet6-->
+        <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Train employable en bois</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--carossel vet 6-->
+                        <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../image/traintirerenbois.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../image/train1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../image/train2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div>
+                                <p>
+                                    Train en bois
+                                    Partons en train ! Fais preuve d'imagination pour construire le train à l'aide des blocs à empiler de différentes formes et couleurs. Il y a 3 voitures que tu peux empiler. Mettez votre tout-petit au défi pour soutenir la coordination main-oeil et la motricité fine.
+                                    C'est aussi un joli accessoire pour la chambre d'enfant ou de jeu.
+                                </p>
+                                <ul>Description</ul>
+                                <ul>Blocs en bois de différentes formes et couleurs.</ul>
+                                <ul>    Peinture à base d'eau.</ul>
+                                <ul>100% bois FSC.</ul>
+                                <span class="price-value public-price" data-price="32.95" data-format="SubtitleDeviseOrigine" data-displayprice="true" data-discount="0"><b>32</b><span>€95</span></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn " data-bs-dismiss="modal">fermer</button>
+                                <button type="button" class="btn ">Ajouter au panier </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>

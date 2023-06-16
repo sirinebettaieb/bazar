@@ -1,0 +1,43 @@
+#imgjeux{
+    width:300px;
+    height:250px;
+    border-radius:30px;
+    
+
+}
+#imgvet {
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+}
+.titre {
+    text-align: center;
+    font-family: 'Bradley Hand', 'cursive';
+}
+.card-title {
+    text-align: center;
+    font-family: 'Bradley Hand', 'cursive';
+}
+
+.card-title{
+    text-align:center;
+    font-style:italic;
+}
+.btn {
+    background-color: #bcdda4;
+    text-align:center;
+}
+.modal{
+    border: none;
+}
+
+.fond {
+    background-color: #fad6c255;
+}
+.card {
+    border: none;
+    background: transparent;
+    background-color: transparent;
+}
+
+
