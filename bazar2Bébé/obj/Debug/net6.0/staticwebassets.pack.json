@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets/bazar2Bébé.bundle.scp.css"
     },
     {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/Poussette.jpg",
+      "PackagePath": "staticwebassets/image/Poussette.jpg"
+    },
+    {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/Poussette1.jpg",
+      "PackagePath": "staticwebassets/image/Poussette1.jpg"
     },
     {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/ann1.jpg",
@@ -23,6 +35,14 @@
     {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/anneauxàempiler.jpg",
       "PackagePath": "staticwebassets/image/anneauxàempiler.jpg"
+    },
+    {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/bag.jpg",
+      "PackagePath": "staticwebassets/image/bag.jpg"
+    },
+    {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/baz.png",
+      "PackagePath": "staticwebassets/image/baz.png"
     },
     {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/boite1.jpg",
@@ -39,6 +59,14 @@
     {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/boy.jpg",
       "PackagePath": "staticwebassets/image/boy.jpg"
+    },
+    {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/boy2.jpg",
+      "PackagePath": "staticwebassets/image/boy2.jpg"
+    },
+    {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/iconePoubelle.png",
+      "PackagePath": "staticwebassets/image/iconePoubelle.png"
     },
     {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/jeuxdéveil.jpg",
@@ -73,8 +101,16 @@
       "PackagePath": "staticwebassets/image/leka2.jpg"
     },
     {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/maxi.jpg",
+      "PackagePath": "staticwebassets/image/maxi.jpg"
+    },
+    {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/outfitboy.jpg",
       "PackagePath": "staticwebassets/image/outfitboy.jpg"
+    },
+    {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/pousettevintage.jpg",
+      "PackagePath": "staticwebassets/image/pousettevintage.jpg"
     },
     {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/pyjama1-1.jpg",
@@ -121,12 +157,20 @@
       "PackagePath": "staticwebassets/image/traintirerenbois.jpg"
     },
     {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/transat.jpg",
+      "PackagePath": "staticwebassets/image/transat.jpg"
+    },
+    {
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/transat1.jpg",
+      "PackagePath": "staticwebassets/image/transat1.jpg"
+    },
+    {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/vete1.jpg",
       "PackagePath": "staticwebassets/image/vete1.jpg"
     },
     {
-      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/vete2.webp",
-      "PackagePath": "staticwebassets/image/vete2.webp"
+      "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/image/vete2.jpg",
+      "PackagePath": "staticwebassets/image/vete2.jpg"
     },
     {
       "Id": "/Users/mohieddinerzig/Projects/bazar/bazar2Bébé/wwwroot/js/site.js",
